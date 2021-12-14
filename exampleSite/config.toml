@@ -121,9 +121,9 @@ title = "Projekt 3DIA"
 
 [languages.de.params]
 author = "Projekt 3DIA"
-info = "Eine neue Dimension für die Diagnostik räumlichen Neglects."
+info = "Neue Dimensionen für die Diagnostik räumlichen Neglects."
 description = "Website des Projekts 3DIA."
-keywords = "blog,desenvolvedor,pessoal"
+keywords = "VR, Räumlicher Neglect, Diagnostik"
 
 [[languages.de.menu.main]]
 name = "Über uns"
