@@ -1,0 +1,15 @@
+<span class="inline-svg" >
+  {{ readFile ( print "fontawesome/" . ".svg" ) | safeHTML  }}
+</span>
+
+<!-- from here: https://www.client9.com/using-font-awesome-icons-in-hugo/ -->
+
+<!-- more extensive version:
+<span class="inline-svg" >
+  {{- $fname:=print "fontawesome/" . ".svg" -}}
+  {{- $path:="<path" -}}
+  {{- $fill:="<path fill=\"currentColor\"" -}}
+  {{ replace (readFile $fname) $path $fill | safeHTML }}
+  </span>
+-->
+

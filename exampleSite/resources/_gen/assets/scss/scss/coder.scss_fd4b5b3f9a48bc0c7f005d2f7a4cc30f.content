@@ -3307,9 +3307,9 @@ figure {
     margin: 0; }
 
 .avatar img {
-  width: 20rem;
+  width: 10rem;
   height: auto;
-  border-radius: 50%; }
+  border-radius: 0%; }
   @media only screen and (max-width: 768px) {
     .avatar img {
       width: 10rem; } }
